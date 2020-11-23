@@ -1,5 +1,5 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header [translucent]="true" >
+  <ion-toolbar color="black">
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
@@ -8,23 +8,62 @@
 </ion-header>
 
 <ion-content>
-  <ion-searchbar showCancelButton="always"></ion-searchbar>
 
-  <ion-grid class="section" *ngFor="let section of sections">
-    <ion-row class="header">
+  <ion-searchbar class="searchBar" color="secondary" animated (ionChange)="buscar ($event)"></ion-searchbar>
+
+  <div class="Titulo">Noticias</div>
+  <ion-grid id="carta" class="section" *ngFor="let section of sections">
+    <div class="slides ion-margin-bottom" id="ContenedorSlides">
+    <ion-slides >      
+        <ion-slide class="header">
+          <ion-card >
+            <ion-card-header>
+              <div class="main">
+                <img [src]="section.body.img" alt="">
+              </div>
+            </ion-card-header>
+  
+            <ion-card-content>
+              <div class="title">
+                <img [src]="section.header.icon" alt="">
+                <ion-card-title class="ion-margin-bottom" >{{section.header.title}}</ion-card-title>
+              </div>
+              
+              
+              <div class="ContenedorChips">
+                <ion-chip>
+                  <ion-icon [name]="section.body.iconChip" color="primary"></ion-icon>
+                  <ion-label>{{section.body.infoCate}}</ion-label>
+                </ion-chip>
+              </div>
+              <p>
+                {{section.body.description}}<span id="dots">...</span><span id="more">{{section.body.content}}
+                </span>
+            </p>
+              <div  (click)="Read()" id="readMore">Read More
+                <ion-icon name="arrow-down-outline"></ion-icon>
+              </div>
+            </ion-card-content>
+          </ion-card>
+        </ion-slide>
+            
+    </ion-slides>
+  </div>
+
+    <!-- <ion-row class="header">
       <ion-col class="title">
         {{section.header.title}}
       </ion-col>
-    </ion-row>
+    </ion-row> -->
 
-    <ion-row class="body">
+    <!-- <ion-row class="body">
       <ion-col [size]="section.body.imgSize && section.body.imgSize || sectionsConfig.imgSize">
         <img [src]="section.body.img" alt="">
       </ion-col>
       <ion-col [size]="section.body.contentSize && section.body.contentSize || sectionsConfig.contentSize" class="content">
         {{section.body.content}}
       </ion-col>
-    </ion-row>
+    </ion-row> -->
 
   </ion-grid>
 

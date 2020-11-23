@@ -1,0 +1,62 @@
+[
+    {
+    "header": {
+      "icon": "../../assets/icon/airplane-outline.svg",
+      "title": "Avion se saco la chucha"
+    },
+    "body": {
+      "iconChip" : "alert",
+      "infoCate": "Accidente",
+      "img": "https://picsum.photos/200/300?random=1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
+      "imgSize": 3,
+      "contentSize": 9
+    }
+  },
+  {
+    "header": {
+      "icon": "../../assets/icon/eyedrop-outline.svg",
+      "title": "Sierra fue arrestado por torcido"
+    },
+    "body": {
+      "iconChip" : "sad",
+      "infoCate": "Arresto",
+      "img": "https://picsum.photos/200/300?random=2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
+      "imgSize": 3,
+      "contentSize": 9
+    }
+  },
+  {
+    "header": {
+      "icon": "../../assets/icon/accessibility-outline.svg",
+      "title": "Alejandro dejo de hablar tanta mierda"
+    },
+    "body": {
+      "iconChip" : "warning",
+      "infoCate": "Imposible",
+      "img": "https://picsum.photos/200/300?random=3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
+      "imgSize": 3,
+      "contentSize": 9
+    }
+  },
+  {
+    "header": {
+      "icon": "../../assets/icon/skull-outline.svg",
+      "title": "Narvaez lo cogieron por porte de arma ilegal"
+    },
+    "body": {
+      "iconChip" : "sad",
+      "infoCate": "Arresto",
+      "img": "https://picsum.photos/200/300?random=3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
+      "imgSize": 3,
+      "contentSize": 9
+    }
+  }
+]
