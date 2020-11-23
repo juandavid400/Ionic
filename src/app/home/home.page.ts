@@ -3,6 +3,7 @@ import { NoticesService } from '../services/notices.service';
 import { NoticesI } from '../Models/NoticesI';
 import { element } from 'protractor';
 import { title } from 'process';
+import { info } from 'console';
 
 
 @Component({
@@ -55,28 +56,32 @@ export class HomePage implements OnInit {
     console.log(val);
 
     if (val && val.trim() != ''){
-      titleList = titleList.filter((element) =>{
+      titleList.filter((element) =>{
         
         const texto = element.header.title.toLowerCase().indexOf(val.toLowerCase()) > -1;
         console.log("val.toLowerCase()");
         console.log(val.toLowerCase());
         console.log(texto);
-        for (let i = 0; i <titleList.length ; i++){
+
+          for (let i = 0; i <titleList.length ; i++){
           
-          if (texto == false){
-            var card = document.getElementById("carta");
-            card.style.display = "none"; 
-            // var card = document.getElementById("carta");
-            // card.style.display = "in-block";         
-          } else {
-            // copytitle =      
-            // var card = document.getElementById("carta");
-            // card.style.display = "in-block";
-            // var card = document.getElementById("carta");
-            // card.style.display = "none";
+            if (texto == false){
+              // var card = document.getElementById("carta");
+              // card.style.display = "none"; 
+              // var card = document.getElementById("carta");
+              // card.stylcopytitlee.display = "in-block";         
+            } else {
+              //  let mostrar = copytitle.push(element.header.title); 
+              //  console.log("mostrar");
+              //  console.log(mostrar);
+                // return this.sections: Array<NoticesI> = mostrar;   
+              // var card = document.getElementById("carta");
+              // card.style.display = "in-block";
+              // var card = document.getElementById("carta");
+              // card.style.display = "none";
+            }
           }
-          return (texto);
-        }
+        
       })
     }
   }
