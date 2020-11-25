@@ -24,13 +24,21 @@ export class HomePage implements OnInit {
   sections: Array<NoticesI>
   constructor(private noticesService:NoticesService) { 
     this.initializeItems();
+    this.sections = this.sections.map(item => ({
+      ...item,
+      showMore: false
+    }));
   }
   initializeItems(){
   this.sections= this.noticesService.getAll();
   }
   ngOnInit() {
   }
-
+  trimString(string, length) {
+    return string.length > length
+      ? string.substring(0, length) + "..."
+      : string;
+  }
   Read() {
     const contador=this.sections.length
     console.log("entre en read");
@@ -53,7 +61,6 @@ export class HomePage implements OnInit {
       }
     })
   }
-  
   buscar(event: any){
     let key: number = 0;
     //console.log("Esto es title list");

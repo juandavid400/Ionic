@@ -1,66 +1,133 @@
 [
-    {
-    "header": {
-      "id":0,
-      "icon": "../../assets/icon/airplane-outline.svg",
-      "title": "Avion se saco la chucha"
-    },
-    "body": {
-      "iconChip" : "alert",
-      "infoCate": "Accidente",
-      "img": "https://picsum.photos/200/300?random=1",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
-      "content": "A Joe Biden, presidente electo de los Estados Unidos, le urgía ponerse a trabajar cuanto antes. Por delante tiene más retos que cualquier otro líder en la historia moderna del país: una pandemia que ha dejado más de un cuarto de millón de estadounidenses muertos; una economía que, aunque se recupera a paso lento, tiene muchas heridas profundas; una emergencia ambiental sin precedentes; una nación dividida llena de desigualdad e injusticias y muchos de los lazos diplomáticos históricos agonizando. El primer paso que debía dar Biden para dar inicio a su ciclo y atender todas las crisis era el de formar un gabinete que cumpliera las necesidades inmediatas de la nación. Este, a su vez, debía permitirle transmitir unidad y proyectar las bases de lo que será el Partido Demócrata en el futuro. Para Biden no se trata simplemente de ejecutar un plan en cuatro años, sino de consolidar a toda una nueva generación de liderazgo que lo acompaña y que trabajaría además con su fórmula, Kamala Harris, quien se proyecta como la candidata demócrata a la presidencia en 2024. Por ello, el presidente electo reclutó funcionarios que le permitirán formar uno de los gabinetes más diversos en la historia del país.",
-      "imgSize": 3,
-      "contentSize": 9
-    }
-  },
   {
-    "header": {
-      "id":1,
-      "icon": "../../assets/icon/eyedrop-outline.svg",
-      "title": "Sierra fue arrestado por torcido"
-    },
-    "body": {
-      "iconChip" : "sad",
-      "infoCate": "Arresto",
-      "img": "https://picsum.photos/200/300?random=2",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
-      "content": "A Joe Biden, presidente electo de los Estados Unidos, le urgía ponerse a trabajar cuanto antes. Por delante tiene más retos que cualquier otro líder en la historia moderna del país: una pandemia que ha dejado más de un cuarto de millón de estadounidenses muertos; una economía que, aunque se recupera a paso lento, tiene muchas heridas profundas; una emergencia ambiental sin precedentes; una nación dividida llena de desigualdad e injusticias y muchos de los lazos diplomáticos históricos agonizando. El primer paso que debía dar Biden para dar inicio a su ciclo y atender todas las crisis era el de formar un gabinete que cumpliera las necesidades inmediatas de la nación. Este, a su vez, debía permitirle transmitir unidad y proyectar las bases de lo que será el Partido Demócrata en el futuro. Para Biden no se trata simplemente de ejecutar un plan en cuatro años, sino de consolidar a toda una nueva generación de liderazgo que lo acompaña y que trabajaría además con su fórmula, Kamala Harris, quien se proyecta como la candidata demócrata a la presidencia en 2024. Por ello, el presidente electo reclutó funcionarios que le permitirán formar uno de los gabinetes más diversos en la historia del país.",
-      "imgSize": 3,
-      "contentSize": 9
-    }
-  },
-  {
-    "header": {
-      "id":2,
-      "icon": "../../assets/icon/accessibility-outline.svg",
-      "title": "Alejandro dejo de hablar tanta mierda"
-    },
-    "body": {
-      "iconChip" : "warning",
-      "infoCate": "Imposible",
-      "img": "https://picsum.photos/200/300?random=3",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
-      "imgSize": 3,
-      "contentSize": 9
-    }
-  },
-  {
-    "header": {
-      "id":3,
-      "icon": "../../assets/icon/skull-outline.svg",
-      "title": "Narvaez lo cogieron por porte de arma ilegal"
-    },
-    "body": {
-      "iconChip" : "sad",
-      "infoCate": "Arresto",
-      "img": "https://picsum.photos/200/300?random=3",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
-      "imgSize": 3,
-      "contentSize": 9
-    }
-  }
+   "category": "Tecnología",
+   "header": {
+     "id": 0,
+     "icon": "../../assets/icon/internet-de-las-cosas.svg",
+     "title": "Estas son algunas de las aplicaciones que serán tendencia durante este año"
+   },
+   "body": {
+     "iconChip" : "bar-chart",
+     "infoCate": "Tecnología",
+     "img": "https://imgcdn.larepublica.co/i/480/2018/04/06190312/apple-productivity-appsok.jpg",
+     "description": "Para los expertos, las plataformas financieras estarán en un auge pero las favoritas seguirán siendo las de fotografía. Vivir sin aplicaciones en el celular es algo impensable en medio de la Cuarta Revolución Industrial, y así no tenga adicción al celular, expertos dicen que como mínimo hay 10 plataformas en el menú, aunque solo se usen cinco o seis al día. ",
+     "content": "Para los expertos, las plataformas financieras estarán en un auge pero las favoritas seguirán siendo las de fotografía. Vivir sin aplicaciones en el celular es algo impensable en medio de la Cuarta Revolución Industrial, y así no tenga adicción al celular, expertos dicen que como mínimo hay 10 plataformas en el menú, aunque solo se usen cinco o seis al día. El primer segmento que seguirá creciendo en popularidad son las financieras. Según explicó Germán Gonzalo Vargas, docente del programa de ingeniería de sistemas de la Universidad El Bosque, las “apps que van a estar de moda serán todas las que sirvan para la toma de decisiones. Por ejemplo las empresas del sector financiero, de inversiones, de trading y de cambio de moneda y bitcoin tienen que ver con el tema de machine learning, que será popular”.",
+     "imgSize": 3,
+     "contentSize": 9
+   }
+ },
+ {
+   "header": {
+     "id": 1,
+     "icon": "../../assets/icon/director-ejecutivo.svg",
+     "title": "Directores ejecutivos de tecnología se enfrentaron a los senadores estadounidenses"
+   },
+   "body": {
+     "iconChip" : "briefcase",
+     "infoCate": "Tecnología",
+     "img": "https://imgcdn.larepublica.co/i/480/2020/10/28172345/tecnol%C3%B3gicas-ceo.jpg",
+     "description": "Dorsey, Pichai y Zuckerberg rechazan las acusaciones de parcialidad cuando los legisladores pidieron explicación sobre contenidos. Los jefes de las mayores empresas de medios sociales se enredaron con senadores estadounidenses por su papel en el discurso público seis días antes del final de una elección que ha convertido a los ejecutivos en blanco de críticas bipartidistas",
+     "content": "Dorsey, Pichai y Zuckerberg rechazan las acusaciones de parcialidad cuando los legisladores pidieron explicación sobre contenidos. Los jefes de las mayores empresas de medios sociales se enredaron con senadores estadounidenses por su papel en el discurso público seis días antes del final de una elección que ha convertido a los ejecutivos en blanco de críticas bipartidistas.El director ejecutivo de Facebook Inc. , Mark Zuckerberg, el director ejecutivo de Twitter Inc. , Jack Dorsey, y Sundar Pichai, director ejecutivo de Google y propietario de YouTube, Alphabet Inc., han pasado los años desde las elecciones de 2016 reescribiendo sus políticas y asumiendo un papel más activo en la moderación del discurso en línea. en parte para evitar un foco de atención como el que se les colocó el miércoles.",
+     "imgSize": 3,
+     "contentSize": 9
+   }
+ },
+ {
+   "header": {
+     "id": 2,
+     "icon": "../../assets/icon/multimedia.svg",
+     "title": "Las aplicaciones multimedia pueden consumir hasta 70% de batería diaria en un celular"
+   },
+   "body": {
+     "iconChip" : "battery-half",
+     "infoCate": "Tecnología",
+     "img": "https://imgcdn.larepublica.co/i/480/2018/11/16183924/Celulares.jpg",
+     "description": "Facebook, YouTube, Instagram, Netflix, Spotify y la app de cámara deterioran más rápido la carga. Si bien últimos teléfonos móviles lanzados en el mercado como iPhone Xs Max, Samsung Galaxy Note 9 o Huawei Mate 20 Pro, entre otros, destacan por sus renovadas baterías, que ostentan una capacidad de hasta 4.000 miliamperios hora (mAh) y garantizan un rendimiento superior a un día para la mayoría de usuarios, debe saber que incluso para estos teléfonos existen aplicaciones que consumen drásticamente su carga diaria.",
+     "content": "Facebook, YouTube, Instagram, Netflix, Spotify y la app de cámara deterioran más rápido la carga. Si bien últimos teléfonos móviles lanzados en el mercado como iPhone Xs Max, Samsung Galaxy Note 9 o Huawei Mate 20 Pro, entre otros, destacan por sus renovadas baterías, que ostentan una capacidad de hasta 4.000 miliamperios hora (mAh) y garantizan un rendimiento superior a un día para la mayoría de usuarios, debe saber que incluso para estos teléfonos existen aplicaciones que consumen drásticamente su carga diaria. Entre estos ‘vampiros’ destacan apps multimedia tan comunes e imprescindibles para muchos hoy en día como Facebook, YouTube, Instagram, Snapchat, Netflix, Spotify, Google Maps y hasta WhatsApp o la cámara que, en conjunto y con un uso promedio, consumen hasta 70% de la carga diaria. Solo Facebook, por ejemplo, y a pesar de sus últimas optimizaciones, consume una buena cantidad de datos y reduce la capacidad de un telefóno móvil hasta en 15%.",
+     "imgSize": 3,
+     "contentSize": 9
+   }
+ },
+ {
+   "header": {
+     "id": 3,
+     "icon": "../../assets/icon/juego.svg",
+     "title": "Cyberpunk 2077 deslumbra en un nuevo gameplay en español con Keanu Reeves"
+   },
+   "body": {
+     "iconChip" : "game-controller",
+     "infoCate": "Videojuegos",
+     "img": "https://as02.epimg.net/meristation/imagenes/2020/11/20/noticias/1605849717_500973_1605849755_noticia_normal_recorte1.jpg",
+     "description": "El título de CD Projekt RED se presenta en un nuevo vídeo oficial de más de 5 minutos completamente en castellano donde vemos todas las novedades.",
+     "content": "El título de CD Projekt RED se presenta en un nuevo vídeo oficial de más de 5 minutos completamente en castellano donde vemos todas las novedades. Cyberpunk 2077 está cada vez más cerca. CD Projekt RED ha presentado en un extenso nuevo vídeo qué nos espera en Night City, la ciudad que acogerá al proyecto más ambicioso del estudio polaco.",
+     "imgSize": 3,
+     "contentSize": 9
+   }
+ },
+ {
+   "category": "Deportes",
+   "header": {
+     "id": 4,
+     "icon": "../../assets/icon/futbol-americano.svg",
+     "title": "Griezmann: “Messi sabe muy bien que tengo muchísimo respeto hacia él”"
+   },
+   "body": {
+     "iconChip" : "football",
+     "infoCate": "Deportes",
+     "img": "https://www.elespectador.com/resizer/Yadl8kslH-yKk9GQmZrNEOXyrNk=/657x0/cloudfront-us-east-1.images.arcpublishing.com/elespectador/XONK4MZFY5CCPPYBG6LFIXAPVE.jpg",
+     "description": "El delantero francés del Barcelona habló en una entrevista sobre su relación con el astro argentino y su adaptación en el cuadro culé. El delantero francés del Barcelona Antoine Griezmann quiso dejar claro este lunes que tiene una buena relación con su capitán, Lionel Messi, asegurando que “sabe muy bien que tengo muchísimo respeto hacia él”.",
+     "content": "El delantero francés del Barcelona habló en una entrevista sobre su relación con el astro argentino y su adaptación en el cuadro culé. El delantero francés del Barcelona Antoine Griezmann quiso dejar claro este lunes que tiene una buena relación con su capitán, Lionel Messi, asegurando que “sabe muy bien que tengo muchísimo respeto hacia él”. El delantero francés tomó así distancia con las declaraciones hechas por un antiguo consejero suyo, Eric Olhats, afirmando que en el Barça “Messi es a la vez emperador y monarca y no vio bien la llegada de Antoine”. “Con Eric, desde el día que me casé ya no tengo relación con él, no era mi representante, es el que llevaba mis cosas”, explicó Griezmann, en una larga entrevista con el exfutbolista Jorge Valdano.",
+     "imgSize": 3,
+     "contentSize": 9
+   }
+   },
+   {
+     "header": {
+       "id": 5,
+       "icon": "../../assets/icon/track-bicycle.svg",
+       "title": "Miguel Ángel López correrá con el Movistar en 2021”"
+     },
+     "body": {
+       "iconChip" : "bicycle",
+       "infoCate": "Deportes",
+       "img": "https://www.elespectador.com/resizer/VKv_5AORjDBvbtHaVa_I78l-668=/657x0/cloudfront-us-east-1.images.arcpublishing.com/elespectador/EYNN5ENVSNCJJK5M3JZFNAOVDU.jpeg",
+       "description": "El ciclista colombiano, Miguel Ángel López, cambiará de equipo en la temporada 2021. Tras cinco años en el equipo Astana, Superman correrá la próxima temporada con el Movistar. Este será el quinto refuerzo de la escuadra española luego de anunciar a Iván García Cortina, ”.",
+       "content": "El ciclista colombiano, Miguel Ángel López, cambiará de equipo en la temporada 2021. Tras cinco años en el equipo Astana, Superman correrá la próxima temporada con el Movistar. Este será el quinto refuerzo de la escuadra española luego de anunciar a Iván García Cortina, Gregor Mühlberger, Abner González y Gonzalo Serrano. Superman López terminó la temporada 2020 con el abandono del Giro de Italia tras una fuerte caída en la primera etapa que le impidió continuar. Fue sexto en el Tour de Francia obteniendo la victoria en la etapa reina entre Grenoble y Col de Loze.",
+       "imgSize": 3,
+       "contentSize": 9
+     }
+   },
+   {
+     "category": "Ciencias",
+     "header": {
+       "id": 6,
+       "icon": "../../assets/icon/orbita.svg",
+       "title": "Intrusos interestelares"
+     },
+     "body": {
+       "iconChip" : "planet",
+       "infoCate": "Ciencia",
+       "img": "https://www.investigacionyciencia.es/images/56780/articleImage-big.jpg",
+       "description": "El reciente avistamiento de dos rocas espaciales procedentes de fuera del sistema solar ha desconcertado a los astrónomos. En los últimos años hemos descubierto dos objetos llegados al sistema solar desde fuera de él: 1I/'Oumuamua y 2I/Borisov, nuestros primeros visitantes interestelares conocidos.",
+       "content": "El reciente avistamiento de dos rocas espaciales procedentes de fuera del sistema solar ha desconcertado a los astrónomos. En los últimos años hemos descubierto dos objetos llegados al sistema solar desde fuera de él: 1I/'Oumuamua y 2I/Borisov, nuestros primeros visitantes interestelares conocidos. Borisov es similar a un cometa ordinario, pero 'Oumuamua es muy alargado y parece impulsado por una fuerza no gravitatoria (pese a no mostrar emisión de gas), lo que ha llevado a los científicos a proponer diversas teorías sobre su naturaleza. Hay razones para pensar que pronto observaremos decenas de objetos interestelares, gracias a nuevos telescopios o incluso a naves espaciales que puedan acudir a su encuentro.",
+       "imgSize": 3,
+       "contentSize": 9
+     }
+   },
+   {
+     "header": {
+       "id": 7,
+       "icon": "../../assets/icon/huella.svg",
+       "title": "El distanciamiento social en los animales"
+     },
+     "body": {
+       "iconChip" : "compass",
+       "infoCate": "Ciencia",
+       "img": "https://www.investigacionyciencia.es/images/56827/articleImage-big.jpg",
+       "description": "A pesar de lo antinatural que nos pueda parecer el distanciamiento social, este forma parte del mundo natural y lo practican mamíferos, peces, insectos y aves. Los animales sociales se alejan y modifican los comportamientos, como el acicalamiento, ",
+       "content": "A pesar de lo antinatural que nos pueda parecer el distanciamiento social, este forma parte del mundo natural y lo practican mamíferos, peces, insectos y aves. Los animales sociales se alejan y modifican los comportamientos, como el acicalamiento, para detener la propagación de enfermedades que podrían causarles la muerte. Las estrategias van desde evitar al animal enfermo hasta mantener interacciones solo con los parientes más cercanos.",
+       "imgSize": 3,
+       "contentSize": 9
+     }
+   }  
 ]

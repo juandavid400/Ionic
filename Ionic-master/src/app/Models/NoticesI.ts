@@ -1,4 +1,5 @@
 export interface NoticesI {
+    category?:string
     header: {
       id:number
       icon:string
