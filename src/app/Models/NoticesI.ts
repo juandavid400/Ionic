@@ -1,5 +1,6 @@
 export interface NoticesI {
     header: {
+      id?: number
       icon:string
       title: string
     }

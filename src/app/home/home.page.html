@@ -12,58 +12,125 @@
   <ion-searchbar class="searchBar" color="secondary" animated (ionChange)="buscar ($event)"></ion-searchbar>
 
   <div class="Titulo">Noticias</div>
-  <ion-grid id="carta" class="section" *ngFor="let section of sections">
-    <div class="slides ion-margin-bottom" id="ContenedorSlides">
-    <ion-slides >      
-        <ion-slide class="header">
-          <ion-card >
-            <ion-card-header>
-              <div class="main">
-                <img [src]="section.body.img" alt="">
-              </div>
-            </ion-card-header>
+  <div class="Titulo2">Tecnologia</div>
+    <ion-list>
+        <ion-item *ngFor="let notice of notices | filtro: textoBuscar:'title'; let indice-index">
+          <div class="slides ion-margin-bottom" id="ContenedorSlides">
+            <ion-slides >      
+                <ion-slide class="header">
+                  <ion-card >
+                    <ion-card-header>
+                      <div class="main">
+                        <img [src]="notice.body.img" alt="">
+                      </div>
+                    </ion-card-header>
+          
+                    <ion-card-content>
+                      <div class="title">
+                        <img [src]="notice.header.icon" alt="">
+                        <ion-card-title class="ion-margin-bottom" >{{notice.header.title}}</ion-card-title>
+                      </div>
+                      
+                      <div class="ContenedorChips">
+                        <ion-chip>
+                          <ion-icon [name]="notice.body.iconChip" color="primary"></ion-icon>
+                          <ion-label>{{notice.body.infoCate}}</ion-label>
+                        </ion-chip>
+                      </div>
+                      <p>
+                        {{notice.body.description}}<span id="dots">...</span><span id="more">{{notice.body.content}}
+                        </span>
+                    </p>
+                      <div  (click)="Read()" id="readMore">Read More</div>
+                    </ion-card-content>
+                  </ion-card>
+                </ion-slide>
+                    
+            </ion-slides>
+          </div>
+        </ion-item>
+    </ion-list>
   
-            <ion-card-content>
-              <div class="title">
-                <img [src]="section.header.icon" alt="">
-                <ion-card-title class="ion-margin-bottom" >{{section.header.title}}</ion-card-title>
-              </div>
-              
-              <div class="ContenedorChips">
-                <ion-chip>
-                  <ion-icon [name]="section.body.iconChip" color="primary"></ion-icon>
-                  <ion-label>{{section.body.infoCate}}</ion-label>
-                </ion-chip>
-              </div>
-              <p>
-                {{section.body.description}}<span id="dots">...</span><span id="more">{{section.body.content}}
-                </span>
-            </p>
-              <div  (click)="Read()" id="readMore">Read More
-                <ion-icon name="arrow-down-outline"></ion-icon>
-              </div>
-            </ion-card-content>
-          </ion-card>
-        </ion-slide>
-            
-    </ion-slides>
-  </div>
+    <div class="Titulo">Deportes</div>
+     <ion-list>
+        <ion-item *ngFor="let sport of sports | filtro: textoBuscar:'title'">
+          <div class="slides ion-margin-bottom" id="ContenedorSlides">
+            <ion-slides >      
+                <ion-slide class="header">
+                  <ion-card >
+                    <ion-card-header>
+                      <div class="main">
+                        <img [src]="sport.body.img" alt="">
+                      </div>
+                    </ion-card-header>
+          
+                    <ion-card-content>
+                      <div class="title">
+                        <img [src]="sport.header.icon" alt="">
+                        <ion-card-title class="ion-margin-bottom" >{{sport.header.title}}</ion-card-title>
+                      </div>
+                      
+                      <div class="ContenedorChips">
+                        <ion-chip>
+                          <ion-icon [name]="sport.body.iconChip" color="primary"></ion-icon>
+                          <ion-label>{{sport.body.infoCate}}</ion-label>
+                        </ion-chip>
+                      </div>
+                      <p>
+                        {{sport.body.description}}<span id="dots">...</span><span id="more">{{sport.body.content}}
+                        </span>
+                    </p>
+                      <div  (click)="Read()" id="readMore">Read More
+                        <ion-icon name="arrow-down-outline"></ion-icon>
+                      </div>
+                    </ion-card-content>
+                  </ion-card>
+                </ion-slide>
+                    
+            </ion-slides>
+          </div>
+        </ion-item>
+    </ion-list>
 
-    <!-- <ion-row class="header">
-      <ion-col class="title">
-        {{section.header.title}}
-      </ion-col>
-    </ion-row> -->
-
-    <!-- <ion-row class="body">
-      <ion-col [size]="section.body.imgSize && section.body.imgSize || sectionsConfig.imgSize">
-        <img [src]="section.body.img" alt="">
-      </ion-col>
-      <ion-col [size]="section.body.contentSize && section.body.contentSize || sectionsConfig.contentSize" class="content">
-        {{section.body.content}}
-      </ion-col>
-    </ion-row> -->
-
-  </ion-grid>
+    <div class="Titulo">Ciencia</div>
+     <ion-list>
+        <ion-item *ngFor="let cience of ciences | filtro: textoBuscar:'title'">
+          <div class="slides ion-margin-bottom" id="ContenedorSlides">
+            <ion-slides >      
+                <ion-slide class="header">
+                  <ion-card >
+                    <ion-card-header>
+                      <div class="main">
+                        <img [src]="cience.body.img" alt="">
+                      </div>
+                    </ion-card-header>
+          
+                    <ion-card-content>
+                      <div class="title">
+                        <img [src]="cience.header.icon" alt="">
+                        <ion-card-title class="ion-margin-bottom" >{{cience.header.title}}</ion-card-title>
+                      </div>
+                      
+                      <div class="ContenedorChips">
+                        <ion-chip>
+                          <ion-icon [name]="cience.body.iconChip" color="primary"></ion-icon>
+                          <ion-label>{{cience.body.infoCate}}</ion-label>
+                        </ion-chip>
+                      </div>
+                      <p>
+                        {{cience.body.description}}<span id="dots">...</span><span id="more">{{cience.body.content}}
+                        </span>
+                    </p>
+                      <div  (click)="Read()" id="readMore">Read More
+                        <ion-icon name="arrow-down-outline"></ion-icon>
+                      </div>
+                    </ion-card-content>
+                  </ion-card>
+                </ion-slide>
+                    
+            </ion-slides>
+          </div>
+        </ion-item>
+    </ion-list>
 
 </ion-content>

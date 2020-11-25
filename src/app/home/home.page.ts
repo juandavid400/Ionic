@@ -1,9 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { NoticesService } from '../services/notices.service';
-import { NoticesI } from '../Models/NoticesI';
-import { element } from 'protractor';
-import { title } from 'process';
-import { info } from 'console';
 
 
 @Component({
@@ -14,24 +10,51 @@ import { info } from 'console';
 export class HomePage implements OnInit {
 
   textoBuscar: '';
+  notices: any[] = [];
+  sports: any[] = [];
+  ciences: any[] = [];
 
   sectionsConfig = {
     imgSize: 3,
     contentSize: 9
   }
-  
-  sections: Array<NoticesI> = this.noticesService.getAll();
 
-  constructor(private noticesService:NoticesService) { }
+  constructor(private noticesService:NoticesService) {
+    this.noticesService.tecnologia()
+    .subscribe( resp => {
+      this.notices = resp;
+     console.log(resp);
+    });
 
-  ngOnInit() {
-  }
+    this.noticesService.deportes()
+    .subscribe( resp => {
+      this.sports = resp;
+     console.log(resp);
+    });
+
+    this.noticesService.ciences()
+    .subscribe( resp => {
+      this.ciences = resp;
+     console.log(resp);
+    });
+   }
+
+
+  ngOnInit() {}
 
   Read() {
     console.log("entre en read");
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
     var btnText = document.getElementById("readMore");
+
+    let tecnologia = this.noticesService.tecnologia();
+
+    
+      tecnologia.forEach(item => {
+        
+      });
+    
   
     if (dots.style.display === "none") {
       dots.style.display = "inline";
@@ -45,44 +68,6 @@ export class HomePage implements OnInit {
   }
 
   buscar(event: any){
-    let titleList = this.noticesService.getAll();
-    let copytitle = titleList;
-    let key: number = 0;
-    console.log("Esto es title list");
-    console.log(titleList);
-
-    const val = event.target.value;
-    console.log("Esto es val");
-    console.log(val);
-
-    if (val && val.trim() != ''){
-      titleList.filter((element) =>{
-        
-        const texto = element.header.title.toLowerCase().indexOf(val.toLowerCase()) > -1;
-        console.log("val.toLowerCase()");
-        console.log(val.toLowerCase());
-        console.log(texto);
-
-          for (let i = 0; i <titleList.length ; i++){
-          
-            if (texto == false){
-              // var card = document.getElementById("carta");
-              // card.style.display = "none"; 
-              // var card = document.getElementById("carta");
-              // card.stylcopytitlee.display = "in-block";         
-            } else {
-              //  let mostrar = copytitle.push(element.header.title); 
-              //  console.log("mostrar");
-              //  console.log(mostrar);
-                // return this.sections: Array<NoticesI> = mostrar;   
-              // var card = document.getElementById("carta");
-              // card.style.display = "in-block";
-              // var card = document.getElementById("carta");
-              // card.style.display = "none";
-            }
-          }
-        
-      })
-    }
+    this.textoBuscar = event.detail.value;
   }
 }

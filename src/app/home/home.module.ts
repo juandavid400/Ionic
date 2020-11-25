@@ -7,7 +7,9 @@ import { IonicModule } from '@ionic/angular';
 import { HomePageRoutingModule } from './home-routing.module';
 
 import { HomePage } from './home.page';
+import { HttpClientModule } from '@angular/common/http';
 import { PipesModule } from '../pipes/pipes.module';
+
 
 @NgModule({
   imports: [
@@ -15,7 +17,8 @@ import { PipesModule } from '../pipes/pipes.module';
     FormsModule,
     IonicModule,
     HomePageRoutingModule,
-    PipesModule
+    PipesModule,
+    HttpClientModule
   ],
   declarations: [HomePage]
 })
