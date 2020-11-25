@@ -1,0 +1,66 @@
+[
+    {
+    "header": {
+      "id":0,
+      "icon": "../../assets/icon/airplane-outline.svg",
+      "title": "Avion se saco la chucha"
+    },
+    "body": {
+      "iconChip" : "alert",
+      "infoCate": "Accidente",
+      "img": "https://picsum.photos/200/300?random=1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
+      "content": "A Joe Biden, presidente electo de los Estados Unidos, le urgía ponerse a trabajar cuanto antes. Por delante tiene más retos que cualquier otro líder en la historia moderna del país: una pandemia que ha dejado más de un cuarto de millón de estadounidenses muertos; una economía que, aunque se recupera a paso lento, tiene muchas heridas profundas; una emergencia ambiental sin precedentes; una nación dividida llena de desigualdad e injusticias y muchos de los lazos diplomáticos históricos agonizando. El primer paso que debía dar Biden para dar inicio a su ciclo y atender todas las crisis era el de formar un gabinete que cumpliera las necesidades inmediatas de la nación. Este, a su vez, debía permitirle transmitir unidad y proyectar las bases de lo que será el Partido Demócrata en el futuro. Para Biden no se trata simplemente de ejecutar un plan en cuatro años, sino de consolidar a toda una nueva generación de liderazgo que lo acompaña y que trabajaría además con su fórmula, Kamala Harris, quien se proyecta como la candidata demócrata a la presidencia en 2024. Por ello, el presidente electo reclutó funcionarios que le permitirán formar uno de los gabinetes más diversos en la historia del país.",
+      "imgSize": 3,
+      "contentSize": 9
+    }
+  },
+  {
+    "header": {
+      "id":1,
+      "icon": "../../assets/icon/eyedrop-outline.svg",
+      "title": "Sierra fue arrestado por torcido"
+    },
+    "body": {
+      "iconChip" : "sad",
+      "infoCate": "Arresto",
+      "img": "https://picsum.photos/200/300?random=2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
+      "content": "A Joe Biden, presidente electo de los Estados Unidos, le urgía ponerse a trabajar cuanto antes. Por delante tiene más retos que cualquier otro líder en la historia moderna del país: una pandemia que ha dejado más de un cuarto de millón de estadounidenses muertos; una economía que, aunque se recupera a paso lento, tiene muchas heridas profundas; una emergencia ambiental sin precedentes; una nación dividida llena de desigualdad e injusticias y muchos de los lazos diplomáticos históricos agonizando. El primer paso que debía dar Biden para dar inicio a su ciclo y atender todas las crisis era el de formar un gabinete que cumpliera las necesidades inmediatas de la nación. Este, a su vez, debía permitirle transmitir unidad y proyectar las bases de lo que será el Partido Demócrata en el futuro. Para Biden no se trata simplemente de ejecutar un plan en cuatro años, sino de consolidar a toda una nueva generación de liderazgo que lo acompaña y que trabajaría además con su fórmula, Kamala Harris, quien se proyecta como la candidata demócrata a la presidencia en 2024. Por ello, el presidente electo reclutó funcionarios que le permitirán formar uno de los gabinetes más diversos en la historia del país.",
+      "imgSize": 3,
+      "contentSize": 9
+    }
+  },
+  {
+    "header": {
+      "id":2,
+      "icon": "../../assets/icon/accessibility-outline.svg",
+      "title": "Alejandro dejo de hablar tanta mierda"
+    },
+    "body": {
+      "iconChip" : "warning",
+      "infoCate": "Imposible",
+      "img": "https://picsum.photos/200/300?random=3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
+      "imgSize": 3,
+      "contentSize": 9
+    }
+  },
+  {
+    "header": {
+      "id":3,
+      "icon": "../../assets/icon/skull-outline.svg",
+      "title": "Narvaez lo cogieron por porte de arma ilegal"
+    },
+    "body": {
+      "iconChip" : "sad",
+      "infoCate": "Arresto",
+      "img": "https://picsum.photos/200/300?random=3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum cumque laudantium accusantium fugiat saepe cupiditate perspiciatis commodi quod tempore illo doloribus mollitia et veniam debitis sequi accusamus vitae! Laudantium.",
+      "imgSize": 3,
+      "contentSize": 9
+    }
+  }
+]
