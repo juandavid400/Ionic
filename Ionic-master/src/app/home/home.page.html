@@ -35,25 +35,6 @@
                   <ion-label>{{section.body.infoCate}}</ion-label>
                 </ion-chip>
               </div>
-            <!--<p>
-                  {{section.body.description}}<span id="dots">...</span><span id="more">{{section.body.content}}
-                  </span>
-              </p>
-              <div  (click)="Read()" id="readMore">Read More
-                  <ion-icon name="arrow-down-outline"></ion-icon>
-                </div>-->
-
-              <!--<div *ngIf="section.body.content.length <= limit">{{section.body.description}}</div>
-              <div *ngIf="truncating && section.body.content.length > limit">
-                {{section.body.description}}
-                <button ion-button (click)="truncating = false">show more</button>
-              </div>
-              <div *ngIf="!truncating && section.body.content.length > limit">
-                {{section.body.content}}
-                <button ion-button (click)="truncating = true">show less</button>
-              </div>-->
-              
-
               <div>
                 <div *ngIf="!section.showMore">
                   {{trimString(section.body.content,100)}}
@@ -64,7 +45,6 @@
                 <a (click)="section.showMore = !section.showMore">Show <span [innerHtml]="section.showMore ? 'less' : 'More'">  </span>
                 </a>
               </div>
-        
             </ion-card-content>
           </ion-card>
         </ion-slide>
